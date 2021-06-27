@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import SearchBar from "../components/SearchBar";
 import SearchResults from "../components/SearchResults";
+import Playlist from "../components/Playlist";
 
 export default function Home() {
   return (
@@ -24,7 +25,10 @@ export default function Home() {
       <Header></Header>
       <div className={styles.app}>
         <SearchBar></SearchBar>
-        <SearchResults></SearchResults>
+        <div className={styles.resultContainer}>
+          <SearchResults></SearchResults>
+          <Playlist></Playlist>
+        </div>
       </div>
     </main>
   );

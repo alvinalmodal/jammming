@@ -8,3 +8,9 @@
   font-weight: 500;
   color: #fff;
 }
+
+.resultContainer {
+  padding: 0;
+  width: 100%;
+  display: flex;
+}
