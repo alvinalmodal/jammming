@@ -1,0 +1,13 @@
+.header {
+  background-color: #010c3f;
+  display: block;
+  text-align: center;
+  font-size: 1.88rem;
+  font-family: Poppins, sans-serif;
+  padding: 0.77rem 0;
+  color: white;
+}
+
+.header span {
+  color: #6c41ec;
+}
