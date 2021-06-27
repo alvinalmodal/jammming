@@ -2,10 +2,11 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import SearchBar from "../components/SearchBar";
+import SearchResults from "../components/SearchResults";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <main>
       <Head>
         <title>Jammming</title>
         <meta
@@ -21,7 +22,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
-      <SearchBar></SearchBar>
-    </div>
+      <div className={styles.app}>
+        <SearchBar></SearchBar>
+        <SearchResults></SearchResults>
+      </div>
+    </main>
   );
 }

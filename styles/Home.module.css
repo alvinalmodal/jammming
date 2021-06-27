@@ -1,3 +1,10 @@
-.container {
-  height: 100vh;
+.app {
+  height: 100%;
+  padding: 0 17% 10%;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-family: Work Sans, sans-serif;
+  font-weight: 500;
+  color: #fff;
 }
